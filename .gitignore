@@ -1,0 +1,29 @@
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables
+.env
+
+# Ignore compiled/generated files
+.DS_Store
+*.log
+*.log.*
+*.pid
+
+# Ignore user/editor specific files
+.vscode/
+.idea/
+.vim/
+
+# Ignore build and output directories
+/dist/
+/build/
+/out/
+
+# Ignore miscellaneous files
+*.swp
+.eslintcache
+.prettiercache
